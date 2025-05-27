@@ -1,0 +1,10 @@
+body {
+    flex-direction: column;
+    min-height: 100vh;
+    font-weight: 550;
+    font-family: 'Atkinson Hyperlegible', 'Source Sans Pro', 'Roboto', Arial, sans-serif;
+    display: flex;
+   background: linear-gradient(to bottom, #83a4d4, #b6fbff);
+
+
+}
