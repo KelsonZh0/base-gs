@@ -5,51 +5,46 @@ main {
   flex: 1;
 }
 
-
-.contato-title {
+.faq-title {
   color: #1e3a5f; /* Azul escuro */
-  font-size: 26px;
+  font-size: 24px;
   margin-bottom: 10px;
   text-align: center;
 }
 
-.contato-subtitle {
+.faq-subtitle {
   font-size: 16px;
-  color: #2196f3;
+  color: #2196f3; /* Azul padrão */
   margin-bottom: 20px;
   text-align: center;
 }
 
 .container {
-  background-color: #f0f9ff;
+  background-color: #f0f9ff; /* Fundo azul clarinho */
   padding: 20px;
-  border-radius: 12px;
+  border-radius: 10px;
   max-width: 80%;
   margin: auto;
-  box-shadow: 0 4px 8px rgba(30, 136, 229, 0.15);
+  box-shadow: 0 2px 6px rgba(30, 136, 229, 0.15);
   box-sizing: border-box;
+  position: relative;
 }
 
-.contato-section {
+.faq-section {
   margin-top: 20px;
 }
 
-.contato {
+.faq {
   margin-bottom: 16px;
   border-radius: 12px;
   overflow: hidden;
   border: 1px solid #42a5f5;
   background-color: #e3f2fd;
   transition: background 0.3s ease, box-shadow 0.3s ease;
+  will-change: transform;
 }
 
-.contato:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(30, 136, 229, 0.25);
-  background-color: #bbdefb;
-}
-
-.contato h3 {
+.faq h3 {
   padding: 10px 14px;
   margin: 0;
   text-align: center;
@@ -57,23 +52,17 @@ main {
   cursor: pointer;
   color: #1e3a5f;
   font-weight: bold;
-  transition: transform 0.3s ease;
-  will-change: transform;
+  transition: font-size 0.3s ease, background-color 0.3s ease;
 }
 
-.contato h3:hover {
-  transform: scale(1.08);
+.faq h3:hover {
+  background-color: #bbdefb; /* Azul hover */
+  font-size: 19px;
 }
 
-.contato h3 a {
-  color: #1e3a5f;
-  text-decoration: none;
-}
-
-.contato p {
+.faq p {
   display: none;
   padding: 10px 14px;
-  text-align: center;
   margin: 0;
   background-color: #e1f5fe;
   color: #1e3a5f;
@@ -81,27 +70,11 @@ main {
   font-size: 16px;
 }
 
-.contato.active p {
+.faq.active p {
   display: block;
 }
 
-.contato p a {
+.faq p a {
   color: #1e88e5;
-}
-
-/* ===== FOOTER ===== */
-footer {
-  text-align: center;
-  padding: 16px 8px;
-  font-size: 14px;
-  color: #1e3a5f;
-  background: transparent;
-  margin-top: 40px;
-}
-
-footer a {
-  color: #1e88e5;
-  margin: 0 8px;
   text-decoration: none;
-  font-weight: 500;
 }

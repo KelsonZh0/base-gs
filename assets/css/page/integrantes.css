@@ -27,7 +27,6 @@ main {
   padding: 24px;
   box-shadow: 0 4px 12px rgba(30, 136, 229, 0.2);
   width: 100%;
-  max-width: 700px;
   box-sizing: border-box;
   animation: fade 0.4s ease-in-out;
   border: 1px solid #42a5f5; /* azul médio */
@@ -120,7 +119,6 @@ button#btn-proximo {
   cursor: pointer;
   margin-top: 20px;
   width: 100%;
-  max-width: 700px;
   box-sizing: border-box;
   transition: background-color 0.3s;
 }
